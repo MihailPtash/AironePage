@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
 @font-face {
     font-family: 'font7ca193358a8f826917a012c7bad68b7f';
         
@@ -7,17 +9,89 @@
 }
 
 .headerpromo {
-    color: aliceblue;
+    color: white;
     display: flex;
     flex-direction: column;
-    background-image: url("/img/Без-имени-1.png");
+    background-image: linear-gradient(45deg, #212227b2,#2a2b4eb4), url("/img/Без-имени-1.png");
+    background-blend-mode: soft-light;
+    background-position: center;
+    background-size: cover;
     align-items: center;
     justify-content: center;
     padding: 70px 0;
+    background-color: rgb(116, 118, 150);
 }
 
 .headerpromo__bigtext {
     font-family: 'font7ca193358a8f826917a012c7bad68b7f';
     text-align: center;
     font-size: 40px;
+    line-height: 72px;
+    padding: 30px 0;
+}
+
+.headerpromo__information {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.icon-block {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    width: 247px;
+    height: 157px;
+    border: 3.5px solid white;
+    border-top: 0;
+    position: relative;
+    margin: 30px;
+}
+  .icon-block:before, .icon-block:after {
+    content: " ";
+    position: absolute ;
+    height: 2px;
+    width: 40%;
+    background: white;
+    top: 0;
+}
+  
+  
+.icon-block:before {
+    left: 0;
+}
+  
+.icon-block:after {
+    right: 0;
+}
+    
+.icon-block__iconka {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+    
+.icon-block__content {
+  
+}
+
+.block-content__number {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'font7ca193358a8f826917a012c7bad68b7f';
+}
+
+.block-content__text {
+    font-size: 18px;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+}
+ 
+.headerpromo__container {
+    display: flex;
 }

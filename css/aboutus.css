@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Helvetica Neue Cyr Thin';
+    src: url('/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Black.eot');
+    src: url('/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Black.eot') format('embedded-opentype'),
+    url('/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Black.woff') format('woff'),
+    url('/fonts/HelveticaNeueCyr/HelveticaNeueCyr-BlackItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+.aboutus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.aboutus__header {
+font-size: 48px;
+font-family: 'Helvetica Neue Cyr Thin';
+}
+
+.aboutus__text {
+    font-size: 19px;
+    font-family: 'Helvetica';
+    line-height: 30px;
+}
+
+.aboutus__container {
+    padding: 100px 0;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aboutus__functions {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.block-aboutus {
+    margin: 0 3px;
+    padding: 0 50px;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: "Arial";
+}
+
+.block-aboutus__header {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.block-aboutus__header_start {
+    padding: 0;
+    padding-bottom: 10px;
+}
+
+.block-aboutus_active,
+.block-aboutus:hover {
+    background-color: #f6ae48;
+    color: white;
+}
+
+.block-aboutus:hover img {
+    filter: contrast(300%);
+}
+
+.block-aboutus__logo {
+    padding-top: 15px;
+   
+}

@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Futura Light';
+    src: url('/fonts/Futura/FuturaBookC.eot');
+    src: url('/fonts/Futura/FuturaBookC.eot') format('embedded-opentype'),
+    url('/fonts/Futura/FuturaDemiC.woff') format('woff'),
+    url('/fonts/Futura/FuturaLightC.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+.header-menu {
+    align-items: center;
+    list-style: none;
+    margin: 0 auto;
+    display: flex;
+    font-size: 30px;
+    font-family: 'Futura Light';
+    color: black;
+    padding: 30px 120px;
+}
+
+.header-menu__item {
+    margin: 0 20px; 
+    position: relative;
+    color: #f6ae48;
+}
+
+.header-menu__item:first-child {
+    margin-left: 0;
+}
+
+.header-menu__item:last-child {
+    margin-right: 0;
+}
+
+.header-menu-link {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.header-menu-link_active,
+.header-menu-link:hover {
+    color: #f6ae48;
+}
