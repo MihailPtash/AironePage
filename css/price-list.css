@@ -1,0 +1,110 @@
+@font-face {
+font-family: 'Myriad Pro Regular';
+src: url('/fonts/Myriadpro/MyriadPro-Regular.eot');
+src: url('/fonts/Myriadpro/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+url('/fonts/Myriadpro/MyriadPro-Regular.woff') format('woff'),
+url('/fonts/Myriadpro/MyriadPro-Regular.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+.price-list {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -295px;
+}
+
+.price-list__item {
+    width: 367px;
+    height: 307px;
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: baseline;
+    color: white;
+}
+
+.list-item__price {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list-item__name {
+    padding: 17px 0;
+    margin-left: 42px;
+    font-family: 'Futura Light';
+    font-size: 50px;
+    border-bottom: 2px solid #c8c2aa;
+} 
+
+.list-item__name_one {
+    border-bottom: 2px solid white;
+}
+
+.list-item__name_two {
+    font-family: 'Exo 2.0 Bold';
+}
+
+.list-item__name_three {
+    font-family: 'Exo 2.0 Bold';
+}
+
+.list-item_one {
+    background-image: linear-gradient(45deg, #0a0a0ab2,#090918b4), url(/img/price-listitem.png);
+}
+
+.list-item_two {
+    background-image: linear-gradient(45deg, #0a0a0ab2,#090918b4), url(/img/price-listitem2.png);
+}
+
+.list-item_three {
+    background-image: linear-gradient(45deg, #0a0a0ab2,#090918b4), url(/img/price-listitem3.png);
+}
+
+.item-price__number {
+    font-size: 25px;
+    font-family: 'Myriad Pro Regular';
+    border: 3px solid #00b9e7;
+    padding: 12px 28px;
+}
+
+.item-price__number_orange {
+    border: 3px solid #ffcb00;
+}
+
+.item-price__number_green {
+    border: 3px solid #66bf0d;
+}
+
+.list-item_one,
+.list-item:hover .list-item__name {
+    border-bottom: 2px solid white;
+}
+
+.list-item_two:hover .price-button_orange {
+    background-image: url(/img/orangestrelka.png);
+}
+
+.list-item_three:hover .price-button_green {
+    background-image: url(/img/greenstrelka.png);
+}
+
+.item-price__button {
+    height: 28px;
+    width: 27px;
+    background-image: url(/img/strelka.png);
+    background-size: cover;
+}
+
+.price-button_blue {
+    background-image: url(/img/bluestrelka.png);
+    background-size: cover;
+    height: 28px;
+    width: 27px;
+}

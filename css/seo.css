@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Tahoma Regular';
+    src: url('/fonts/tahoma/Tahoma-Bold.eot');
+    src: url('/fonts/tahoma/Tahoma-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/tahoma/Tahoma-Bold.woff') format('woff'),
+    url('/fonts/tahoma/Tahoma-Bold.woff') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+.seo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.seo-information__header {
+    font-size: 79px;
+    font-weight: bold;
+    opacity: 0.18;
+    position: relative;
+    left: -80px;
+    font-family: "Tahoma Regular";
+}
+
+.seo-information__header2{
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    top: -55px;
+    font-family: 'Exo 2.0 Bold';
+}
+
+.seo-information__text {
+    font-size: 24px;
+    line-height: 48px;
+    font-family: Arial;
+}
+
+.seo-information{
+    display: flex;
+    flex-direction: column;
+}
+
+.seo-image {
+    display: flex;
+    flex-direction: column;
+}
+
+.seo-image__google {
+    padding-bottom: 39px;
+}
+

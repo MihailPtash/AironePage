@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 @font-face {
     font-family: 'Helvetica Neue Cyr Thin';
     src: url('/fonts/HelveticaNeueCyr/HelveticaNeueCyr-Black.eot');
@@ -13,11 +16,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 100px 0;
 }
 
 .aboutus__header {
-font-size: 48px;
-font-family: 'Helvetica Neue Cyr Thin';
+    font-size: 48px;
+    font-family: 'Helvetica Neue Cyr Thin';
 }
 
 .aboutus__text {
@@ -27,7 +31,7 @@ font-family: 'Helvetica Neue Cyr Thin';
 }
 
 .aboutus__container {
-    padding: 100px 0;
+    padding: 70px 0;
     width: 100%;
     display: inline-flex;
     justify-content: space-around;
@@ -67,10 +71,29 @@ font-family: 'Helvetica Neue Cyr Thin';
 }
 
 .block-aboutus:hover img {
-    filter: contrast(300%);
+    filter: brightness(10) ;
 }
 
 .block-aboutus__logo {
     padding-top: 15px;
    
+}
+
+.block-aboutus__price {
+    align-items: center;
+    padding: 20px 0;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.aboutus-price__number {
+    font-weight: bold;
+    padding: 3px 19px;
+    border: 2px solid white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.aboutus-price__button {
+    height:100%;
 }

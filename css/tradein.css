@@ -1,0 +1,41 @@
+.tradein__header {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.tradein {
+    width: 100%;
+    display: flex;
+    background-image: linear-gradient(45deg, #3f4149b2,#2a2b4eb4), url("/img/tradein.png");;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding: 60px 0;
+    background-size: cover;
+    color: white;
+}
+
+.tradein-container {
+    display: inline-flex;
+    justify-content: center;
+    align-items: top;
+    text-align: left;
+}
+
+.tradein_text {
+    font-size: 18px;
+    font-family: Arial;
+    line-height: 30px;
+}
+
+.tradein_header {
+    font-size: 30px;
+    font-family: "Paragon 530";
+    font-weight: bold;
+    line-height: 72px;
+}
+
+.tradein__block {
+    padding: 60px 45px;
+}

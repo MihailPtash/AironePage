@@ -1,0 +1,107 @@
+.ourprojects {
+
+}
+
+.ourprojects__header {
+    display: inline-flex;
+    height: 114px;
+    align-items: center;
+    width: 100%;
+    background-color: #303263;
+    justify-content: center;
+}
+
+.header-projects__text {
+    font-size: 96px;
+    color: #8a8ba1;
+    position: relative;
+    left: 170px;
+    font-family: 'Tahoma';
+    font-weight: bold;
+}   
+
+.header-project__logo {
+    font-size: 36px;
+    color: white;
+    position: relative;
+    left: -390px;
+    font-family: "Tahoma";
+    font-weight: bold;
+}
+
+.galery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.galery-container {
+    display: inline-flex;       
+}
+
+.galery-item{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(255, 253, 253);
+}
+
+.galery-item__container{
+    padding: 0 122px;
+}
+
+.galery__item_rkb {
+    background-image: url(/img/galery4.png);
+    background-size: contain;
+    background-position: center;
+}
+
+.galery-item__text {
+    font-size: 72px;
+    text-decoration: none;
+}
+
+.galery-item__smalltext {
+    font-size: 30px;
+    
+}
+
+.galery-item__image{
+    height: 330px;
+    width: 383px;
+}
+
+.galery-item__image_big {
+    height: 422px;
+    width: 766px;
+}
+
+.ourprojects__footer {
+    display: inline-flex;
+    height: 114px;
+    align-items: center;
+    width: 100%;
+    background-color: #303263;
+    justify-content: center;
+}
+
+.ourprojects-footer__project{
+
+}
+
+.ourprojects-footer__buton {
+    display: flex;
+    width: 240px;   
+    height: 67px;
+    background-color: #6a6b8e;
+    border-radius: 14px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.footer-buton__text {
+    font-size: 30px;
+    color: white;
+}

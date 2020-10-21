@@ -1,0 +1,45 @@
+.adaptate {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.adaptate__text {
+    display: flex;
+    flex-direction: column;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    padding-left: 380px;
+}
+
+.adaptate-text__background {
+    font-size: 79px;
+    font-weight: bold;
+    opacity: 0.18;
+    position: relative;
+    left: -80px;
+    font-family: "Tahoma Regular";
+ }
+
+ .adaptate-text__header {
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    left: -35px;
+    top: -55px;
+    font-family: 'Exo 2.0 Bold';
+ }
+
+ .adaptate-text__information {
+    font-size: 24px;
+    line-height: 48px;
+    font-family: Arial;
+ }
+
+ .adaptate-images__iphone6 {
+     padding-right: 50px;
+ }
+
+ .adaptate-images__ipad {
+     padding-right: 24px;
+ }
