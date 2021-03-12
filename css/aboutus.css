@@ -70,13 +70,19 @@
     color: white;
 }
 
-.block-aboutus:hover img {
-    filter: brightness(10) ;
+.block-aboutus:hover .block-aboutus__rocket {
+    background:url(/img/whiterocket.png);
+    background-size: 100% 100%;
+}
+
+.block-aboutus:hover .block-aboutus__mobile {
+    background:url(/img/whitephone.png);
+    background-size: 100% 100%;
+    
 }
 
 .block-aboutus__logo {
     padding-top: 15px;
-   
 }
 
 .block-aboutus__price {
@@ -96,4 +102,31 @@
 
 .aboutus-price__button {
     height:100%;
+}
+
+.block-aboutus__rocket {
+    background: url(/img/rocket.png);
+    height: 47px;
+    width: 30px;
+    background-size: 100% 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.block-aboutus__mobile {
+    background: url(/img/mobile.png);
+    height: 47px;
+    width: 30px;
+    background-size: 100% 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.block-aboutus__heurt {
+    background: url(/img/heurt.png);
+    height: 40px;
+    width: 50px;
+    background-size: 100% 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }

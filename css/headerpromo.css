@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
 @font-face {
-    font-family: 'font7ca193358a8f826917a012c7bad68b7f';
-        
-        src:    url('https://nomail.com.ua/files/eot/7ca193358a8f826917a012c7bad68b7f.eot?#iefix') format('embedded-opentype'),
-                url('https://nomail.com.ua/files/woff/7ca193358a8f826917a012c7bad68b7f.woff') format('woff'),
-                url('https://nomail.com.ua/files/woff2/7ca193358a8f826917a012c7bad68b7f.woff2') format('woff2');
-}
+    font-family: 'Parangon';
+    src: local('Parangon 530 C'), local('Parangon-530-C'),
+        url('/fonts/Paragon530C/Parangon530C.woff2') format('woff2'),
+        url('/fonts/Paragon530C/Parangon530C.woff') format('woff'),
+        url('/fonts/Paragon530C/Parangon530C.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
 
 .headerpromo {
     color: white;
@@ -23,7 +25,7 @@
 }
 
 .headerpromo__bigtext {
-    font-family: 'font7ca193358a8f826917a012c7bad68b7f';
+    font-family: 'Parangon';
     text-align: center;
     font-size: 40px;
     line-height: 72px;
@@ -83,7 +85,7 @@
     font-size: 48px;
     font-weight: bold;
     text-align: center;
-    font-family: 'font7ca193358a8f826917a012c7bad68b7f';
+    font-family: 'Parangon';
 }
 
 .block-content__text {

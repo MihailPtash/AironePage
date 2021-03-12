@@ -1,6 +1,7 @@
 .tradein__header {
     font-size: 48px;
     font-weight: bolder;
+    font-family: 'Parangon';
 }
 
 .tradein {
@@ -23,19 +24,50 @@
     text-align: left;
 }
 
-.tradein_text {
+.tradein-block__text {
     font-size: 18px;
     font-family: Arial;
     line-height: 30px;
 }
 
-.tradein_header {
+.tradein-block__header {
     font-size: 30px;
-    font-family: "Paragon 530";
+    font-family: 'Parangon';
     font-weight: bold;
     line-height: 72px;
 }
 
 .tradein__block {
     padding: 60px 45px;
+}
+
+.tradein__button {
+    display: flex;
+    width: 300px;
+    height: 50px;
+    background-color: #f6ae48;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.tradein-button__text {
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: 'Parangon';
+}
+
+.tradein-block__cotainer {
+    display: inline-flex;
+    align-items: center;
+}
+
+.tradein__logo {
+    height: 100%;
+    padding-right: 20px;
+}
+
+.tradein-block__cotainer_glass {
+    position: relative;
+    left: -30px;
 }
